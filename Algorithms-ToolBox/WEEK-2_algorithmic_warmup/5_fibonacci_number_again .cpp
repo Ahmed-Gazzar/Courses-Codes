@@ -34,7 +34,7 @@ int main() {
     long long n = 0;
     int m = 0, i = 0;
     int Xperiod = 0;
-    std::cin >> n >> m;
+    cin >> n >> m;
 
     vector<int>fib;
     fib.push_back(0);
@@ -46,9 +46,9 @@ int main() {
             break;
         }
     }
-    if(Xperiod==0){ std::cout << fib[n] << '\n'; }
+    if(Xperiod==0){ cout << fib[n] << '\n'; }
     else {
-        std::cout << fib[n%Xperiod] << '\n';
+        cout << fib[n%Xperiod] << '\n';
     }
 
     return 0;
