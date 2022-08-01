@@ -3,7 +3,7 @@
 using namespace std;
 
 
-long long gcd_naive(long long a, long long b) {
+long long gcd(long long a, long long b) {
 
 	if (a - b < 0) {
 		a = a + b;
@@ -24,6 +24,6 @@ int main() {
 	long long a;
 	long long b;
 	cin >> a >> b;
-	std::cout << gcd_naive(a, b) << std::endl;
+	cout << gcd(a, b) << endl;
 	return 0;
 }
