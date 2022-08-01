@@ -27,10 +27,9 @@ int get_fibonacci_last_digit(long long n) {
 
 int main() {
 
-    long long n,m;
-    std::cin >>m >> n;
-    int c = get_fibonacci_last_digit(n)- get_fibonacci_last_digit(m-1);
-    
-    std::cout << (c+10)%10 << '\n';
+    long long n;
+    cin >> n;
+    int c = get_fibonacci_last_digit(n);
+    cout << c << '\n';
     return 0;
 }
