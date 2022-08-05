@@ -1,8 +1,10 @@
-#include <iostream> 
+#include <iostream>
+#include <algorithm>
 #include <vector> 
+#include <chrono> 
+#include <iomanip>
 
 using namespace std;
-using std::vector;
 
 
 int get_majority_element(vector<int>& a) {
